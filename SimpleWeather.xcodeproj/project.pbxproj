@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32038E1B1BEEA308008A26AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32038E1A1BEEA308008A26AC /* main.m */; };
+		32038E1E1BEEA308008A26AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32038E1D1BEEA308008A26AC /* AppDelegate.m */; };
+		32038E241BEEA308008A26AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32038E221BEEA308008A26AC /* Main.storyboard */; };
+		32038E261BEEA308008A26AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32038E251BEEA308008A26AC /* Assets.xcassets */; };
+		32038E291BEEA308008A26AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32038E271BEEA308008A26AC /* LaunchScreen.storyboard */; };
+		3204F8551BF22F9D006CCA95 /* WXMappingProvider+WXDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 3204F8541BF22F9D006CCA95 /* WXMappingProvider+WXDailyForecast.m */; };
+		324282A41BF0D3BE009B8AEA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324282A31BF0D3BE009B8AEA /* CoreLocation.framework */; };
+		324282AA1BF1371B009B8AEA /* WXMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 324282A91BF1371B009B8AEA /* WXMappingProvider.m */; };
+		324282AD1BF13AB9009B8AEA /* WXMappingProvider+WXCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 324282AC1BF13AB9009B8AEA /* WXMappingProvider+WXCondition.m */; };
+		32D5425D1BEF3518008E96FE /* WXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D5425C1BEF3518008E96FE /* WXClient.m */; };
+		32D542611BEF353D008E96FE /* WXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D542601BEF353D008E96FE /* WXManager.m */; };
+		32D542641BEF3552008E96FE /* WXCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D542631BEF3552008E96FE /* WXCondition.m */; };
+		32D542671BEF3561008E96FE /* WXDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D542661BEF3561008E96FE /* WXDailyForecast.m */; };
+		32D6A5181BEEA65D00711823 /* WXController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D6A5171BEEA65D00711823 /* WXController.m */; };
+		BFF602F8617348EAC0969063 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9419006D7D614F4E0EDF02C0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32038E161BEEA308008A26AC /* SimpleWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32038E1A1BEEA308008A26AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32038E1C1BEEA308008A26AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32038E1D1BEEA308008A26AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32038E231BEEA308008A26AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32038E251BEEA308008A26AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32038E281BEEA308008A26AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32038E2A1BEEA308008A26AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3204F8531BF22F9D006CCA95 /* WXMappingProvider+WXDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WXMappingProvider+WXDailyForecast.h"; path = "WXClient/Mapping/WXMappingProvider+WXDailyForecast.h"; sourceTree = "<group>"; };
+		3204F8541BF22F9D006CCA95 /* WXMappingProvider+WXDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WXMappingProvider+WXDailyForecast.m"; path = "WXClient/Mapping/WXMappingProvider+WXDailyForecast.m"; sourceTree = "<group>"; };
+		324282A31BF0D3BE009B8AEA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		324282A81BF1371B009B8AEA /* WXMappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXMappingProvider.h; path = WXClient/Mapping/WXMappingProvider.h; sourceTree = "<group>"; };
+		324282A91BF1371B009B8AEA /* WXMappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXMappingProvider.m; path = WXClient/Mapping/WXMappingProvider.m; sourceTree = "<group>"; };
+		324282AB1BF13AB9009B8AEA /* WXMappingProvider+WXCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WXMappingProvider+WXCondition.h"; path = "WXClient/Mapping/WXMappingProvider+WXCondition.h"; sourceTree = "<group>"; };
+		324282AC1BF13AB9009B8AEA /* WXMappingProvider+WXCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WXMappingProvider+WXCondition.m"; path = "WXClient/Mapping/WXMappingProvider+WXCondition.m"; sourceTree = "<group>"; };
+		32D5425B1BEF3518008E96FE /* WXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXClient.h; path = WXClient/WXClient.h; sourceTree = "<group>"; };
+		32D5425C1BEF3518008E96FE /* WXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXClient.m; path = WXClient/WXClient.m; sourceTree = "<group>"; };
+		32D5425F1BEF353D008E96FE /* WXManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXManager.h; path = WXClient/WXManager.h; sourceTree = "<group>"; };
+		32D542601BEF353D008E96FE /* WXManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXManager.m; path = WXClient/WXManager.m; sourceTree = "<group>"; };
+		32D542621BEF3552008E96FE /* WXCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXCondition.h; path = WXClient/WXCondition.h; sourceTree = "<group>"; };
+		32D542631BEF3552008E96FE /* WXCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXCondition.m; path = WXClient/WXCondition.m; sourceTree = "<group>"; };
+		32D542651BEF3561008E96FE /* WXDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXDailyForecast.h; sourceTree = "<group>"; };
+		32D542661BEF3561008E96FE /* WXDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXDailyForecast.m; sourceTree = "<group>"; };
+		32D6A5161BEEA65D00711823 /* WXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXController.h; sourceTree = "<group>"; };
+		32D6A5171BEEA65D00711823 /* WXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXController.m; sourceTree = "<group>"; };
+		9419006D7D614F4E0EDF02C0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C02B1E77A80857C083FC0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D20150D8416ACF79C98E9CA5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32038E131BEEA308008A26AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324282A41BF0D3BE009B8AEA /* CoreLocation.framework in Frameworks */,
+				BFF602F8617348EAC0969063 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C63B5259F549F1EB966FB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B66C02B1E77A80857C083FC0 /* Pods.debug.xcconfig */,
+				D20150D8416ACF79C98E9CA5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32038E0D1BEEA308008A26AC = {
+			isa = PBXGroup;
+			children = (
+				32038E181BEEA308008A26AC /* SimpleWeather */,
+				32038E171BEEA308008A26AC /* Products */,
+				00C63B5259F549F1EB966FB0 /* Pods */,
+				BFC43E9CCD154E808E7C6138 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32038E171BEEA308008A26AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32038E161BEEA308008A26AC /* SimpleWeather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32038E181BEEA308008A26AC /* SimpleWeather */ = {
+			isa = PBXGroup;
+			children = (
+				32D5425E1BEF351D008E96FE /* WXWeatherClient */,
+				32038E1C1BEEA308008A26AC /* AppDelegate.h */,
+				32038E1D1BEEA308008A26AC /* AppDelegate.m */,
+				32D6A5161BEEA65D00711823 /* WXController.h */,
+				32D6A5171BEEA65D00711823 /* WXController.m */,
+				32038E221BEEA308008A26AC /* Main.storyboard */,
+				32038E251BEEA308008A26AC /* Assets.xcassets */,
+				32038E271BEEA308008A26AC /* LaunchScreen.storyboard */,
+				32038E2A1BEEA308008A26AC /* Info.plist */,
+				32038E191BEEA308008A26AC /* Supporting Files */,
+			);
+			path = SimpleWeather;
+			sourceTree = "<group>";
+		};
+		32038E191BEEA308008A26AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32038E1A1BEEA308008A26AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		324282A71BF136E9009B8AEA /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				324282A81BF1371B009B8AEA /* WXMappingProvider.h */,
+				324282A91BF1371B009B8AEA /* WXMappingProvider.m */,
+				324282AB1BF13AB9009B8AEA /* WXMappingProvider+WXCondition.h */,
+				324282AC1BF13AB9009B8AEA /* WXMappingProvider+WXCondition.m */,
+				3204F8531BF22F9D006CCA95 /* WXMappingProvider+WXDailyForecast.h */,
+				3204F8541BF22F9D006CCA95 /* WXMappingProvider+WXDailyForecast.m */,
+			);
+			name = Mapping;
+			sourceTree = "<group>";
+		};
+		32D5425E1BEF351D008E96FE /* WXWeatherClient */ = {
+			isa = PBXGroup;
+			children = (
+				324282A71BF136E9009B8AEA /* Mapping */,
+				32D5425B1BEF3518008E96FE /* WXClient.h */,
+				32D5425C1BEF3518008E96FE /* WXClient.m */,
+				32D5425F1BEF353D008E96FE /* WXManager.h */,
+				32D542601BEF353D008E96FE /* WXManager.m */,
+				32D542621BEF3552008E96FE /* WXCondition.h */,
+				32D542631BEF3552008E96FE /* WXCondition.m */,
+				32D542651BEF3561008E96FE /* WXDailyForecast.h */,
+				32D542661BEF3561008E96FE /* WXDailyForecast.m */,
+			);
+			name = WXWeatherClient;
+			sourceTree = "<group>";
+		};
+		BFC43E9CCD154E808E7C6138 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				324282A31BF0D3BE009B8AEA /* CoreLocation.framework */,
+				9419006D7D614F4E0EDF02C0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32038E151BEEA308008A26AC /* SimpleWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32038E2D1BEEA308008A26AC /* Build configuration list for PBXNativeTarget "SimpleWeather" */;
+			buildPhases = (
+				EF977B7D8E80264D9D451F7B /* Check Pods Manifest.lock */,
+				32038E121BEEA308008A26AC /* Sources */,
+				32038E131BEEA308008A26AC /* Frameworks */,
+				32038E141BEEA308008A26AC /* Resources */,
+				A9C125E489E29E7EAFCD2F41 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleWeather;
+			productName = SimpleWeather;
+			productReference = 32038E161BEEA308008A26AC /* SimpleWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32038E0E1BEEA308008A26AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Axon Development Group";
+				TargetAttributes = {
+					32038E151BEEA308008A26AC = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 32038E111BEEA308008A26AC /* Build configuration list for PBXProject "SimpleWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32038E0D1BEEA308008A26AC;
+			productRefGroup = 32038E171BEEA308008A26AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32038E151BEEA308008A26AC /* SimpleWeather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32038E141BEEA308008A26AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32038E291BEEA308008A26AC /* LaunchScreen.storyboard in Resources */,
+				32038E261BEEA308008A26AC /* Assets.xcassets in Resources */,
+				32038E241BEEA308008A26AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9C125E489E29E7EAFCD2F41 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF977B7D8E80264D9D451F7B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32038E121BEEA308008A26AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D542611BEF353D008E96FE /* WXManager.m in Sources */,
+				32D6A5181BEEA65D00711823 /* WXController.m in Sources */,
+				32D5425D1BEF3518008E96FE /* WXClient.m in Sources */,
+				32038E1E1BEEA308008A26AC /* AppDelegate.m in Sources */,
+				324282AD1BF13AB9009B8AEA /* WXMappingProvider+WXCondition.m in Sources */,
+				324282AA1BF1371B009B8AEA /* WXMappingProvider.m in Sources */,
+				32D542671BEF3561008E96FE /* WXDailyForecast.m in Sources */,
+				32038E1B1BEEA308008A26AC /* main.m in Sources */,
+				3204F8551BF22F9D006CCA95 /* WXMappingProvider+WXDailyForecast.m in Sources */,
+				32D542641BEF3552008E96FE /* WXCondition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32038E221BEEA308008A26AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32038E231BEEA308008A26AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32038E271BEEA308008A26AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32038E281BEEA308008A26AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32038E2B1BEEA308008A26AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32038E2C1BEEA308008A26AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32038E2E1BEEA308008A26AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B66C02B1E77A80857C083FC0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dima.yarmolchuk.SimpleWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32038E2F1BEEA308008A26AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20150D8416ACF79C98E9CA5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dima.yarmolchuk.SimpleWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32038E111BEEA308008A26AC /* Build configuration list for PBXProject "SimpleWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32038E2B1BEEA308008A26AC /* Debug */,
+				32038E2C1BEEA308008A26AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32038E2D1BEEA308008A26AC /* Build configuration list for PBXNativeTarget "SimpleWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32038E2E1BEEA308008A26AC /* Debug */,
+				32038E2F1BEEA308008A26AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32038E0E1BEEA308008A26AC /* Project object */;
+}
