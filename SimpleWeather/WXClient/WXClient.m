@@ -61,6 +61,11 @@
 }
 
 - (RACSignal *)fetchCurrentConditionsForLocation:(CLLocationCoordinate2D)coordinate {
+    if (!coordinate.latitude || !coordinate.longitude) {
+        coordinate.latitude = 50.27;
+        coordinate.longitude = 30.30;
+    }
+    
     NSString *urlString = [NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/weather?lat=%f&lon=%f&units=imperial&APPID=%@", coordinate.latitude, coordinate.longitude, APIKEY];
     NSURL *url = [NSURL URLWithString:urlString];
     
@@ -70,6 +75,11 @@
 }
 
 - (RACSignal *)fetchHourlyForecastForLocation:(CLLocationCoordinate2D)coordinate {
+    if (!coordinate.latitude || !coordinate.longitude) {
+        coordinate.latitude = 50.27;
+        coordinate.longitude = 30.30;
+    }
+
     NSString *urlString = [NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/forecast?lat=%f&lon=%f&units=imperial&cnt=12&APPID=%@", coordinate.latitude, coordinate.longitude, APIKEY];
     NSURL *url = [NSURL URLWithString:urlString];
     
@@ -83,6 +93,11 @@
 }
 
 - (RACSignal *)fetchDailyForecastForLocation:(CLLocationCoordinate2D)coordinate {
+    if (!coordinate.latitude || !coordinate.longitude) {
+        coordinate.latitude = 50.27;
+        coordinate.longitude = 30.30;
+    }
+
     NSString *urlString = [NSString stringWithFormat:@"http://api.openweathermap.org/data/2.5/forecast/daily?lat=%f&lon=%f&units=imperial&cnt=7&APPID=%@", coordinate.latitude, coordinate.longitude, APIKEY];
     NSURL *url = [NSURL URLWithString:urlString];
     
